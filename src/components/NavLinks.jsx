@@ -1,7 +1,7 @@
 import React from "react";
-import Link from "./Link";
+import Link from "./NavLink";
 
-function Links() {
+function NavLinks() {
     return (
         <div className="flex flex-row space-x-10">
             <Link name="Home" />
@@ -12,4 +12,4 @@ function Links() {
     );
 }
 
-export default Links;
+export default NavLinks;
