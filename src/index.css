@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hero-img {
+  -webkit-animation: bubble 8s ease-in-out infinite;
+  animation: bubble 8s ease-in-out infinite, floating 14s ease-in-out infinite;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #2d2e32;
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  transition: all 1s ease-in-out;
+}
+
+@keyframes bubble {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  15% {
+    transform: translate(5px, 15px);
+  }
+  30% {
+    transform: translate(3px, -10px);
+  }
+  45% {
+    transform: translate(10px, 5px);
+  }
+  60% {
+    transform: translate(-5px, -15px);
+  }
+  75% {
+    transform: translate(-10px, 10px);
+  }
+  100% {
+    transform: translate(0, 0px);
+  }
+}
