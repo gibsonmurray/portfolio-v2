@@ -1,6 +1,14 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHtml5, faCss3Alt, faJs, faReact, faNodeJs, faJava, faSwift } from "@fortawesome/free-brands-svg-icons";
+import {
+    faHtml5,
+    faCss3Alt,
+    faJs,
+    faReact,
+    faNodeJs,
+    faJava,
+    faSwift,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Framework(props) {
     let icon, color;
@@ -22,14 +30,16 @@ function Framework(props) {
         color = "#83cd29";
     } else if (props.name === "java") {
         icon = faJava;
-        color = "#5283a2"
+        color = "#5283a2";
     } else if (props.name === "swift") {
         icon = faSwift;
         color = "#f05035";
     }
 
     return (
-        <div className="flex h-[70px] w-[70px] items-center justify-center rounded-full bg-white mx-5 shadow-md">
+        <div
+            className={`${props.bgColor} m-5 flex h-[70px] w-[70px] items-center justify-center  rounded-full border-[3px] border-neutral-200 shadow-xl`}
+        >
             <FontAwesomeIcon icon={icon} style={{ color: color }} size="3x" />
         </div>
     );

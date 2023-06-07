@@ -8,7 +8,7 @@ function AboutMe() {
                 A driven Full-Stack Software Engineer based in College Park, MD
                 📍
             </h3>
-            <p className="mt-5 text-xl text-neutral-600">
+            <p className="mt-5 text-xl text-neutral-500">
                 Welcome to my corner of the web! I'm a passionate Full-Stack
                 Software Engineer with expertise in languages and frameworks
                 including{" "}
