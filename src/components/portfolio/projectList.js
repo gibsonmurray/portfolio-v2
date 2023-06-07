@@ -37,7 +37,7 @@ const projects = [
             "Built an interpreter to calculate a value from the AST given the operational semantics of the " +
             "MicroCaml functional langsuage; included a “mutop” top-level REPL.",
         langs: ["OCaml"],
-        code: "https://github.com/gibsonmurray/CMSC330-Programming-langss/tree/main/project4a",
+        code: "https://github.com/gibsonmurray/CMSC330-Programming-langs/tree/main/project4a",
         demo: undefined,
         image: devSetup,
         imgSize: "h=[500px] w-[500px]",
