@@ -4,13 +4,13 @@ import Framework from "../Framework";
 function TechStack() {
     return (
         <div className="ml-20 flex items-center">
-            <Framework name="html" bgColor="bg-white" />
-            <Framework name="css" bgColor="bg-white" />
-            <Framework name="js" bgColor="bg-white" />
-            <Framework name="react" bgColor="bg-white" />
-            <Framework name="node" bgColor="bg-white" />
-            <Framework name="java" bgColor="bg-white" />
-            <Framework name="swift" bgColor="bg-white" />
+            <Framework name="JavaScript" bgColor="bg-white" />
+            <Framework name="React" bgColor="bg-white" />
+            <Framework name="Node.js" bgColor="bg-white" />
+            <Framework name="TailwindCSS" bgColor="bg-white" />
+            <Framework name="Java" bgColor="bg-white" />
+            <Framework name="C" bgColor="bg-white" />
+            <Framework name="Swift" bgColor="bg-white" />
         </div>
     );
 }

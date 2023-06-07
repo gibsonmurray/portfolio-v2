@@ -3,17 +3,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 function Account(props) {
-    let icon, altText, link;
+    let icon, title, link;
 
     if (props.platform === "linkedin") {
         icon = faLinkedin;
-        altText = "LinkedIn";
+        title = "LinkedIn";
         link = "https://www.linkedin.com/in/gibsonmurray/";
     } else if (props.platform === "github") {
         icon = faGithub;
-        altText = "GitHub";
+        title = "GitHub";
         link = "https://github.com/gibsonmurray";
-    }
+    } 
 
     return (
         <div className="mr-5 h-10 w-10">
@@ -21,7 +21,7 @@ function Account(props) {
                 <a rel="noreferrer" target="_blank" href={link}>
                     <FontAwesomeIcon
                         icon={icon}
-                        title={altText}
+                        title={title}
                         size="3x"
                         className="duration-200 hover:text-blue-500"
                     />

@@ -2,7 +2,7 @@
 import React from "react";
 import Lottie from "lottie-react";
 import abstractBubbles from "../../images/abstract-bubbles.json";
-import heroImg from "../../images/hero-img.jpeg";
+import heroImg from "../../images/hero-img.JPG";
 
 function HeroImg() {
     return (

@@ -9,14 +9,14 @@ function Projects() {
                 return (
                     <Project
                         key={index}
-                        id={index}
                         title={proj.title}
                         desc={proj.desc}
-                        lang={proj.lang}
+                        langs={proj.langs}
                         code={proj.code}
                         demo={proj.demo}
                         image={proj.image}
                         imgSize={proj.imgSize}
+                        flipped={proj.flipped}
                     />
                 );
             })}

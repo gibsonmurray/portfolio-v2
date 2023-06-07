@@ -7,7 +7,6 @@ import { Element } from "react-scroll";
 function Hero() {
     return (
         <Element name="Home">
-            {" "}
             <div className="flex h-screen w-screen items-center justify-center bg-neutral-100">
                 <div className="flex h-4/5 w-4/5 flex-col items-center justify-center">
                     <div className="flex items-center justify-center">

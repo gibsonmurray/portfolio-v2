@@ -1,31 +1,23 @@
 import React from "react";
-import Lottie from "lottie-react";
 import ProjectContent from "./ProjectContent";
-import Framework from "../Framework";
+import ProjImg from "./ProjImg";
+import ProjLangs from "./ProjLangs";
 
-function Project(props) {
+function Project({ title, desc, code, demo, image, flipped, imgSize, langs }) {
     return (
         <div className="relative m-10 flex h-[28rem] w-full items-center justify-evenly overflow-hidden rounded-2xl bg-white shadow-xl">
-            <div className="flex h-5/6 w-2/5 items-center justify-center overflow-hidden">
-                <div className="w-fill h-fill">
-                    <Lottie
-                        animationData={props.image}
-                        className={props.imgSize}
-                    />
-                </div>
-            </div>
+            {flipped && <ProjLangs langs={langs} flipped={flipped} />}
+            {!flipped && <ProjImg image={image} imgSize={imgSize} />}
             <ProjectContent
-                key={props.id}
-                id={props.id}
-                title={props.title}
-                desc={props.desc}
-                code={props.code}
-                demo={props.demo}
-                image={props.image}
+                title={title}
+                desc={desc}
+                code={code}
+                demo={demo}
+                image={image}
+                flipped={flipped}
             />
-            <div className="absolute right-0 top-0">
-                <Framework name={props.lang} bgColor="bg-white" />
-            </div>
+            {flipped && <ProjImg image={image} imgSize={imgSize} />}
+            {!flipped && <ProjLangs langs={langs} flipped={flipped} />}
         </div>
     );
 }
