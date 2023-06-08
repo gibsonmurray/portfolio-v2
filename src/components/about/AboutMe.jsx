@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutMe() {
     return (
-        <div className="mt-12 w-11/12 text-center lg:w-3/5 lg:text-start xl:ml-10 xl:mt-0 xl:w-2/5">
+        <div className="mt-12 w-5/6 text-center lg:w-3/5 lg:text-start xl:ml-10 xl:mt-0 xl:w-2/5">
             <h2 className="text-xl font-extrabold text-blue-500">ABOUT ME</h2>
             <h3 className="mt-5 text-3xl font-extrabold lg:w-[550px]">
                 A driven Full-Stack Software Engineer based in College Park,

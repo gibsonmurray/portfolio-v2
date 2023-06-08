@@ -12,7 +12,7 @@ function Project({ title, desc, code, demo, image, flipped, imgSize, langs }) {
         return () => window.removeEventListener("resize", handleResize);
     }, []);
 
-    if (windowWidth <= 900) {
+    if (windowWidth < 1024) {
         flipped = false;
     }
 
