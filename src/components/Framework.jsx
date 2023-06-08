@@ -14,7 +14,7 @@ import express from "../images/icons/express.svg";
 import haskell from "../images/icons/haskell.svg";
 import dataStructure from "../images/icons/data-structure.svg";
 
-function Framework({ name, bgColor }) {
+function Framework({ name }) {
     let icon;
 
     if (name === "HTML") {
@@ -49,7 +49,7 @@ function Framework({ name, bgColor }) {
 
     return (
         <div
-            className={`${bgColor} m-5 flex h-[70px] w-[70px] transform cursor-pointer 
+            className={`m-5 flex h-[70px] w-[70px] transform cursor-pointer 
             items-center justify-center rounded-full border-[3px] border-neutral-200 
             shadow-xl transition-transform duration-200 hover:-translate-y-1 hover:scale-110`}
         >

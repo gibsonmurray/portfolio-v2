@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
+
+
 function Account(props) {
+
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+        const handleResize = () => setWindowWidth(window.innerWidth);
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
     let icon, title, link;
 
     if (props.platform === "linkedin") {
@@ -16,13 +27,13 @@ function Account(props) {
     } 
 
     return (
-        <div className="mr-5 h-10 w-10">
+        <div className={`h-20 w-20 ${windowWidth < 900 && "flex justify-center items-center"}`}>
             {icon && (
                 <a rel="noreferrer" target="_blank" href={link}>
                     <FontAwesomeIcon
                         icon={icon}
                         title={title}
-                        size="3x"
+                        size="2x"
                         className="duration-200 hover:text-blue-500"
                     />
                 </a>

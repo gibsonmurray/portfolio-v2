@@ -11,7 +11,7 @@ function ProjLangs({ langs, flipped }) {
             }
         >
             {langs.map((lang, index) => {
-                return <Framework name={lang} bgColor="bg-white" key={index}/>;
+                return <Framework name={lang} key={index}/>;
             })}
         </div>
     );

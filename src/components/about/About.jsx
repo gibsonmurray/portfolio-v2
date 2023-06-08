@@ -7,7 +7,7 @@ import { Element } from "react-scroll";
 function About() {
     return (
         <Element name="About">
-            <div className="flex h-[90vh] w-screen items-center justify-center bg-white">
+            <div className="flex h-[90vh] w-screen items-center justify-center bg-white overflow-hidden">
                 <div className="flex h-3/4 w-1/3 items-center justify-center overflow-hidden">
                     <div className="w-fill h-fill">
                         <Lottie

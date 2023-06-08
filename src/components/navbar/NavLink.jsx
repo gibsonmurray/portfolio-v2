@@ -1,18 +1,24 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-function NavLink(props) {
+function NavLink({ name, vertical, onClick }) {
+
     return (
         <Link
             activeClass="active"
-            to={props.name}
+            to={name}
             spy={true}
             smooth={true}
             offset={0}
             duration={750}
+            onClick={onClick}
         >
-            <h3 className="cursor-pointer text-xl font-bold duration-200 hover:text-blue-500">
-                {props.name}
+            <h3 className={`cursor-pointer duration-200 hover:text-blue-500 
+                            text-4xl font-black
+                            sm:text-xl sm:font-bold
+                            xl:text-xl xl:font-bold 
+                            ${vertical && "my-10"}`}>
+                {name}
             </h3>
         </Link>
     );

@@ -7,7 +7,7 @@ import { Element } from "react-scroll";
 function Contact() {
     return (
         <Element name="Contact">
-            <div className="flex items-center justify-center py-28">
+            <div className="flex items-center justify-center py-28 overflow-hidden">
                 <div className="flex h-1/3 w-1/4 items-center justify-center overflow-hidden">
                     <div className="w-fill h-fill">
                         <Lottie
