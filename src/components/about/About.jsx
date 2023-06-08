@@ -7,12 +7,17 @@ import { Element } from "react-scroll";
 function About() {
     return (
         <Element name="About">
-            <div className="flex h-[90vh] w-screen items-center justify-center bg-white overflow-hidden">
-                <div className="flex h-3/4 w-1/3 items-center justify-center overflow-hidden">
+            <div className="flex w-screen items-center justify-center bg-white overflow-hidden
+                            flex-col py-32
+                            xl:flex-row xl:py-20">
+                <div className="flex  items-center justify-center overflow-hidden
+                                xl:h-3/4 xl:w-2/5">
                     <div className="w-fill h-fill">
                         <Lottie
                             animationData={me}
-                            className="w-[500px] h-[500px]"
+                            className=" w-[350px]
+                                        lg:w-[500px] 
+                                        xl:h-[500px]"
                         />
                     </div>
                 </div>

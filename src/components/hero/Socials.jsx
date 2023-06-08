@@ -3,9 +3,9 @@ import Account from "./Account";
 
 function Socials() {
     return (
-        <div className="mt-8 flex flex-row 
+        <div className="flex flex-row 
                         justify-center
-                        lg:justify-start">
+                        lg:justify-start lg:mt-8">
             <Account platform="linkedin" />
             <Account platform="github" />
         </div>

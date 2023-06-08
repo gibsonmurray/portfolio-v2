@@ -5,7 +5,7 @@ function TechStackIcons() {
     return (
         <div className="flex items-center justify-center
                         flex-wrap
-                        lg:ml-20"
+                        xl:ml-20"
         >
             <Framework name="JavaScript" />
             <Framework name="React" />
