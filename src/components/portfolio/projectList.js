@@ -13,7 +13,7 @@ const projects = [
         code: "https://github.com/gibsonmurray/imagine",
         demo: "https://cerise-scorpion-tux.cyclic.app/",
         image: aiImg,
-        imgSize: "h-[800px] w-[800px] mb-7",
+        imgSize: "h-[400px] lg:h-[700px] lg:w-[700px] xl:h-[800px] xl:w-[800px] lg:mb-7",
         flipped: false,
     },
     {
@@ -26,7 +26,7 @@ const projects = [
         code: "https://github.com/gibsonmurray/CMSC420-Data-Structures/tree/main/Project%203%20-%20Clustering%20and%20Farthest%20First%20KD%20Tree/cmsc420_s23",
         demo: undefined,
         image: geolocatorImg,
-        imgSize: "h[800px] w-[800px] mt-5",
+        imgSize: "h-[400px] w-[400px] lg:h-[700px] lg:w-[700px] xl:h-[800px] xl:w-[800px] mt-5 ml-3 lg:ml-0",
         flipped: true,
     },
     {
@@ -35,12 +35,12 @@ const projects = [
             "Implemented a lexer to tokenize string inputs targeted by MicroCaml syntax." +
             "Constructed a recursive descent parser to create an abstract syntax tree from tokens" +
             "Built an interpreter to calculate a value from the AST given the operational semantics of the " +
-            "MicroCaml functional langsuage; included a “mutop” top-level REPL.",
+            "MicroCaml functional language.",
         langs: ["OCaml"],
         code: "https://github.com/gibsonmurray/CMSC330-Programming-langs/tree/main/project4a",
         demo: undefined,
         image: devSetup,
-        imgSize: "h=[500px] w-[500px]",
+        imgSize: "h-[300px] lg:h-[400px] lg:w-[400px] xl:w-[500px] xl:w-[500px]",
         flipped: false,
     },
 ];

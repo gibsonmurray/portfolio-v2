@@ -49,11 +49,11 @@ function Framework({ name }) {
 
     return (
         <div
-            className={`m-5 flex h-[70px] w-[70px] transform cursor-pointer 
+            className={`m-3 flex h-[50px] w-[50px] lg:h-[70px] lg:w-[70px] transform cursor-pointer 
             items-center justify-center rounded-full border-[3px] border-neutral-200 
             shadow-xl transition-transform duration-200 hover:-translate-y-1 hover:scale-110`}
         >
-            <img src={icon} alt={name} title={name} className="h-12 w-12" />
+            <img src={icon} alt={name} title={name} className=" h-8 w-8 lg:h-12 lg:w-12" />
         </div>
     );
 }
