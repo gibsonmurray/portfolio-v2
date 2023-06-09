@@ -9,7 +9,7 @@ function NavLink({ name, vertical, onClick }) {
             to={name}
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-70}
             duration={750}
             onClick={onClick}
         >
