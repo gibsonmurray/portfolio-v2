@@ -32,7 +32,7 @@ const projects = [
     {
         title: "MICROCAML COMPILER 📝",
         desc:
-            "Implemented a lexer to tokenize string inputs targeted by MicroCaml syntax." +
+            "Implemented a lexer to tokenize string inputs targeted by MicroCaml syntax. " +
             "Constructed a recursive descent parser to create an abstract syntax tree from tokens" +
             "Built an interpreter to calculate a value from the AST given the operational semantics of the " +
             "MicroCaml functional language.",
