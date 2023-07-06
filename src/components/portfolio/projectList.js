@@ -26,7 +26,7 @@ const projects = [
         code: "https://github.com/gibsonmurray/CMSC420-Data-Structures/tree/main/Project%203%20-%20Clustering%20and%20Farthest%20First%20KD%20Tree/cmsc420_s23",
         demo: undefined,
         image: geolocatorImg,
-        imgSize: "h-[400px] w-[400px] lg:h-[700px] lg:w-[700px] xl:h-[800px] xl:w-[800px] mt-5 ml-3 lg:ml-0",
+        imgSize: "h-[190px] w-[190px] lg:h-[350px] lg:w-[350px] xl:h-[400px] xl:w-[400px] mt-5 ml-3 lg:ml-0",
         flipped: true,
     },
     {
