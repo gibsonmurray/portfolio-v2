@@ -12,8 +12,8 @@ function TechStackIcons() {
             <Framework name="Node.js" />
             <Framework name="TailwindCSS" />
             <Framework name="Java" />
-            <Framework name="C" />
             <Framework name="Swift" />
+            <Framework name="C" />
         </div>
     );
 }

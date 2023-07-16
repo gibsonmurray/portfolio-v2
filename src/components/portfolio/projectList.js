@@ -1,6 +1,7 @@
 import geolocatorImg from "../../images/geolocator.json";
+import codepenImg from "../../images/codepen.json"
 import aiImg from "../../images/ai.json";
-import devSetup from "../../images/dev-setup.json";
+import devSetupImg from "../../images/dev-setup.json";
 
 const projects = [
     {
@@ -17,6 +18,19 @@ const projects = [
         flipped: false,
     },
     {
+        title: "CODEPENS 🖋️",
+        desc:
+            "A collection of original front-end projects on an online portfolio. " +
+            "Intended to showcase a variety of skills involving animation, frameworks, and experimentation. " +
+            "Projects include a use of SCSS, D3.js, and p5.js frameworks.",
+        langs: ["HTML", "CSS", "JavaScript", "Sass"],
+        code: undefined,
+        demo: "https://codepen.io/gibsonmurray",
+        image: codepenImg,
+        imgSize: "h-[180px] lg:h-[280px] lg:w-[280px] xl:h-[350px] xl:w-[350px]",
+        flipped: true,
+    },
+    {
         title: "CELLULAR GEOLOCATOR 🌎",
         desc:
             "Implemented a kd-tree data structure to plot cellular devices on a 2D plane. " +
@@ -27,10 +41,10 @@ const projects = [
         demo: undefined,
         image: geolocatorImg,
         imgSize: "h-[190px] w-[190px] lg:h-[350px] lg:w-[350px] xl:h-[400px] xl:w-[400px] mt-5 ml-3 lg:ml-0",
-        flipped: true,
+        flipped: false,
     },
     {
-        title: "MICROCAML COMPILER 📝",
+        title: "MICROCAML COMPILER 👾",
         desc:
             "Implemented a lexer to tokenize string inputs targeted by MicroCaml syntax. " +
             "Constructed a recursive descent parser to create an abstract syntax tree from tokens" +
@@ -39,9 +53,9 @@ const projects = [
         langs: ["OCaml"],
         code: "https://github.com/gibsonmurray/CMSC330-Programming-langs/tree/main/project4a",
         demo: undefined,
-        image: devSetup,
+        image: devSetupImg,
         imgSize: "h-[300px] lg:h-[400px] lg:w-[400px] xl:w-[500px] xl:w-[500px]",
-        flipped: false,
+        flipped: true,
     },
 ];
 

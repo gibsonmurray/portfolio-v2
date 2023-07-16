@@ -685,6 +685,10 @@ video {
   height: 180px;
 }
 
+.h-\[190px\] {
+  height: 190px;
+}
+
 .h-\[225px\] {
   height: 225px;
 }
@@ -713,16 +717,12 @@ video {
   height: 100vh;
 }
 
+.h-\[100px\] {
+  height: 100px;
+}
+
 .h-\[200px\] {
   height: 200px;
-}
-
-.h-\[380px\] {
-  height: 380px;
-}
-
-.h-\[190px\] {
-  height: 190px;
 }
 
 .w-11\/12 {
@@ -753,6 +753,10 @@ video {
   width: 11.5rem;
 }
 
+.w-\[190px\] {
+  width: 190px;
+}
+
 .w-\[225px\] {
   width: 225px;
 }
@@ -781,18 +785,6 @@ video {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-\[200px\] {
-  width: 200px;
-}
-
-.w-\[380px\] {
-  width: 380px;
-}
-
-.w-\[190px\] {
-  width: 190px;
 }
 
 .-translate-y-full {
@@ -1250,6 +1242,10 @@ video {
     height: 28rem;
   }
 
+  .lg\:h-\[350px\] {
+    height: 350px;
+  }
+
   .lg\:h-\[400px\] {
     height: 400px;
   }
@@ -1270,16 +1266,16 @@ video {
     height: 100vh;
   }
 
-  .lg\:h-\[300px\] {
-    height: 300px;
+  .lg\:h-\[250px\] {
+    height: 250px;
+  }
+
+  .lg\:h-\[260px\] {
+    height: 260px;
   }
 
   .lg\:h-\[280px\] {
     height: 280px;
-  }
-
-  .lg\:h-\[350px\] {
-    height: 350px;
   }
 
   .lg\:w-11\/12 {
@@ -1314,6 +1310,10 @@ video {
     width: 26rem;
   }
 
+  .lg\:w-\[350px\] {
+    width: 350px;
+  }
+
   .lg\:w-\[400px\] {
     width: 400px;
   }
@@ -1338,16 +1338,16 @@ video {
     width: auto;
   }
 
-  .lg\:w-\[300px\] {
-    width: 300px;
+  .lg\:w-\[250px\] {
+    width: 250px;
+  }
+
+  .lg\:w-\[260px\] {
+    width: 260px;
   }
 
   .lg\:w-\[280px\] {
     width: 280px;
-  }
-
-  .lg\:w-\[350px\] {
-    width: 350px;
   }
 
   .lg\:flex-row {
@@ -1437,6 +1437,10 @@ video {
     height: 300px;
   }
 
+  .xl\:h-\[400px\] {
+    height: 400px;
+  }
+
   .xl\:h-\[500px\] {
     height: 500px;
   }
@@ -1445,8 +1449,12 @@ video {
     height: 800px;
   }
 
-  .xl\:h-\[400px\] {
-    height: 400px;
+  .xl\:h-\[700px\] {
+    height: 700px;
+  }
+
+  .xl\:h-\[350px\] {
+    height: 350px;
   }
 
   .xl\:w-1\/4 {
@@ -1461,6 +1469,10 @@ video {
     width: 300px;
   }
 
+  .xl\:w-\[400px\] {
+    width: 400px;
+  }
+
   .xl\:w-\[500px\] {
     width: 500px;
   }
@@ -1473,8 +1485,12 @@ video {
     width: auto;
   }
 
-  .xl\:w-\[400px\] {
-    width: 400px;
+  .xl\:w-\[700px\] {
+    width: 700px;
+  }
+
+  .xl\:w-\[350px\] {
+    width: 350px;
   }
 
   .xl\:flex-row {

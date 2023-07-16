@@ -4,10 +4,12 @@ import css from "../images/icons/css.svg";
 import js from "../images/icons/js.svg";
 import react from "../images/icons/react.svg";
 import node from "../images/icons/node.svg";
+import d3 from "../images/icons/d3.svg";
 import java from "../images/icons/java.svg";
 import swift from "../images/icons/swift.svg";
 import c from "../images/icons/c.svg";
 import tailwind from "../images/icons/tailwind.svg";
+import sass from "../images/icons/sass.svg";
 import ocaml from "../images/icons/ocaml.svg";
 import mongodb from "../images/icons/mongodb.svg";
 import express from "../images/icons/express.svg";
@@ -27,6 +29,8 @@ function Framework({ name }) {
         icon = react;
     } else if (name === "Node.js") {
         icon = node;
+    } else if (name === "D3.js") {
+        icon = d3;
     } else if (name === "Java") {
         icon = java;
     } else if (name === "Swift") {
@@ -35,6 +39,8 @@ function Framework({ name }) {
         icon = c;
     } else if (name === "TailwindCSS") {
         icon = tailwind;
+    } else if (name === "Sass") {
+        icon = sass;
     } else if (name === "OCaml") {
         icon = ocaml;
     } else if (name === "MongoDB") {

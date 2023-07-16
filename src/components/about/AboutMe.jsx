@@ -9,11 +9,11 @@ function AboutMe() {
                 MD📍
             </h3>
             <p className="mt-5 text-xl text-neutral-500">
-                Welcome to my corner of the web! I'm a passionate Full-Stack
-                Software Engineer with expertise in languages and frameworks
-                including{" "}
+                Welcome to my corner of the web! I'm a{" "}
+                <strong>Computer Science Student @ UMD</strong> with expertise
+                in languages and frameworks including{" "}
                 <strong>
-                    JavaScript, React, Tailwind CSS, Node.js, Java, C, and OCaml
+                    JavaScript, React, Tailwind CSS, Node.js, Java, and Swift
                 </strong>
                 . Throughout my career, I've leveraged these skills to develop
                 compelling, intuitive, and efficient software solutions, always
@@ -24,9 +24,9 @@ function AboutMe() {
                 working on various side programming projects, immersing myself
                 in the gaming world, or at the gym staying active. Currently,
                 I'm expanding my technological horizons by diving deep into{" "}
-                <strong>Swift</strong> and <strong>iOS development</strong>.
-                Stick around to explore my projects, thoughts, and journey as I
-                continuously evolve in the realm of software development...
+                <strong>Front-End Animation + Design</strong>. Stick around to
+                explore my projects, thoughts, and journey as I continuously
+                evolve in the realm of software development...
             </p>
         </div>
     );
