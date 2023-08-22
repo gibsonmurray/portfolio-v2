@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import NavLinks from "./NavLinks";
+import NavLinks from "./components/NavLinks";
 import { Link } from "react-scroll";
-import FullscreenMenu from "./FullscreenMenu";
-import HamburgerIcon from "./HamburgerIcon";
+import FullscreenMenu from "./components/FullscreenMenu";
+import HamburgerIcon from "./components/HamburgerIcon";
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);

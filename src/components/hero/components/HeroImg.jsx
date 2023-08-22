@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import Lottie from "lottie-react";
-import abstractBubbles from "../../images/abstract-bubbles.json";
-import heroImg from "../../images/hero-img.JPG";
+import abstractBubbles from "../../../images/abstract-bubbles.json";
+import heroImg from "../../../images/hero-img.JPG";
 
 function HeroImg() {
     return (

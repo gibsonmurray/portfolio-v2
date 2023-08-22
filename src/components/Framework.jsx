@@ -2,11 +2,14 @@ import React from "react";
 import html from "../images/icons/html.svg";
 import css from "../images/icons/css.svg";
 import js from "../images/icons/js.svg";
+import ts from "../images/icons/ts.svg";
 import react from "../images/icons/react.svg";
 import node from "../images/icons/node.svg";
+import next from "../images/icons/next.svg";
 import d3 from "../images/icons/d3.svg";
 import java from "../images/icons/java.svg";
 import swift from "../images/icons/swift.svg";
+import swiftui from "../images/icons/swiftui.png";
 import c from "../images/icons/c.svg";
 import tailwind from "../images/icons/tailwind.svg";
 import sass from "../images/icons/sass.svg";
@@ -25,16 +28,22 @@ function Framework({ name }) {
         icon = css;
     } else if (name === "JavaScript") {
         icon = js;
+    } else if (name === "TypeScript") {
+        icon = ts;
     } else if (name === "React") {
         icon = react;
     } else if (name === "Node.js") {
         icon = node;
+    } else if (name === "Next.js") {
+        icon = next;
     } else if (name === "D3.js") {
         icon = d3;
     } else if (name === "Java") {
         icon = java;
     } else if (name === "Swift") {
         icon = swift;
+    } else if (name === "SwiftUI") {
+        icon = swiftui;
     } else if (name === "C") {
         icon = c;
     } else if (name === "TailwindCSS") {

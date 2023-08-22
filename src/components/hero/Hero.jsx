@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import HeroContent from "./HeroContent";
-import HeroImg from "./HeroImg";
-import TechStack from "./TechStack";
+import HeroContent from "./components/HeroContent";
+import HeroImg from "./components/HeroImg";
+import TechStack from "./components/TechStack";
 import { Element } from "react-scroll";
 
 function Hero() {

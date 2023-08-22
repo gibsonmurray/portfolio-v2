@@ -16,7 +16,6 @@ function Projects() {
                         demo={proj.demo}
                         image={proj.image}
                         imgSize={proj.imgSize}
-                        flipped={proj.flipped}
                     />
                 );
             })}

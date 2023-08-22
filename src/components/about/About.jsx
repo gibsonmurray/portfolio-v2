@@ -12,18 +12,13 @@ function About() {
                             bg-white py-32
                             xl:flex-row xl:py-20"
             >
-                <div
-                    className="flex  items-center justify-center overflow-hidden
-                                xl:h-3/4 xl:w-2/5"
-                >
-                    <div className="w-fill h-fill">
-                        <Lottie
-                            animationData={me}
-                            className=" w-[350px]
+                <div className="w-fill h-fill">
+                    <Lottie
+                        animationData={me}
+                        className=" w-[350px]
                                         lg:w-[500px] 
                                         xl:h-[500px]"
-                        />
-                    </div>
+                    />
                 </div>
                 <AboutMe />
             </div>
