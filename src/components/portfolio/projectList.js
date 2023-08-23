@@ -13,7 +13,7 @@ const projects = [
         code: undefined,
         demo: "https://apps.apple.com/us/app/mustats/id6459354721",
         image: listenerImg,
-        imgSize: "h-[180px] lg:h-[340px] lg:w-[340px] xl:h-[370px] xl:w-[400px]",
+        imgSize: "h-[180px] lg:h-[340px] lg:w-[340px] xl:h-[370px] xl:w-[360px]",
     },
     {
         title: "AI IMAGINES 🎨",
@@ -23,7 +23,7 @@ const projects = [
         code: "https://github.com/gibsonmurray/imagine",
         demo: "https://cerise-scorpion-tux.cyclic.app/",
         image: aiImg,
-        imgSize: "h-[380px] lg:h-[680px] lg:w-[680px] xl:h-[780px] xl:w-[780px] lg:mb-7",
+        imgSize: "h-[380px] lg:h-[680px] lg:w-[680px] xl:h-[760px] xl:w-[720px] lg:mb-7",
     },
     {
         title: "CODEPENS 🖋️",
@@ -43,7 +43,7 @@ const projects = [
         code: "https://github.com/gibsonmurray/CMSC420-Data-Structures/tree/main/Project%203%20-%20Clustering%20and%20Farthest%20First%20KD%20Tree/cmsc420_s23",
         demo: undefined,
         image: geolocatorImg,
-        imgSize: "h-[170px] w-[190px] lg:h-[350px] lg:w-[350px] xl:h-[380px] xl:w-[400px] mt-5 ml-3 lg:ml-0",
+        imgSize: "h-[170px] w-[190px] lg:h-[350px] lg:w-[350px] xl:h-[360px] mt-5 ml-3 lg:ml-0",
     },
     {
         title: "MICRO COMPILER 👾",

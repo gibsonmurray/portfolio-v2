@@ -24,7 +24,7 @@ function Hero() {
                                     flex-col mt-[80px] 
                                     lg:flex-row lg:mt-0"
                     >
-                        {windowWidth < 900 ? (
+                        {windowWidth < 1024 ? (
                             <>
                                 <HeroImg />
                                 <HeroContent />
